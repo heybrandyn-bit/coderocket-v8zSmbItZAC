@@ -6,7 +6,7 @@ import { Button } from '../components/ui/button';
 
 export default function PodcastPage() {
   const benefits = [
-    "Studio-quality audio that makes you sound like a pro",
+    "Studio-quality audio that makes you sound like a pro!",
     "Unique show identity that stands out in your niche",
     "Access to high-caliber guests who elevate your content",
     "Seamless publishing across Spotify, Apple & more",
