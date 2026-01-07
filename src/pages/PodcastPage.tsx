@@ -15,10 +15,10 @@ export default function PodcastPage() {
   ];
 
   const features = [
-    { title: "Podcast Strategy", description: "Transform your expertise into a show format that captivates your ideal audience" },
-    { title: "Recording & Production", description: "Get that polished, professional sound that keeps listeners coming back" },
-    { title: "Guest Management", description: "Connect with industry leaders who bring massive value to your listeners" },
-    { title: "Distribution", description: "Reach listeners everywhere they tune in - from Apple to Spotify and beyond" },
+    { title: "Podcast Strategy!", description: "Transform your expertise into a show format that captivates your ideal audience" },
+    { title: "Recording & Production!", description: "Get that polished, professional sound that keeps listeners coming back" },
+    { title: "Guest Management!", description: "We will find people that know what they're talking about so you don't have to. j/k. but seriously." },
+    { title: "Distribution", description: "Yeah, we make sure your show can be found on any of the top podcast players." },
     { title: "Content Repurposing", description: "Multiply your impact by turning episodes into engaging multi-channel content" },
     { title: "Growth & Promotion", description: "Build a loyal community using proven audience growth tactics" }
   ];
