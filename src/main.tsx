@@ -5,6 +5,7 @@ import App from "./App.tsx";
 import NotFound from "./NotFound.tsx";
 import VideoProductionPage from "./pages/VideoProductionPage.tsx";
 import MarketingAutomationPage from "./pages/MarketingAutomationPage.tsx";
+import GhostwritingPage from "./pages/GhostwritingPage.tsx";
 import PublishingPage from "./pages/PublishingPage.tsx";
 import PodcastPage from "./pages/PodcastPage.tsx";
 import LiveEventPage from "./pages/LiveEventPage.tsx";
@@ -61,6 +62,7 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
         <Route path="/" element={<App />} />
         <Route path="/services/video-production" element={<VideoProductionPage />} />
         <Route path="/services/marketing-automation" element={<MarketingAutomationPage />} />
+        <Route path="/services/ghostwriting" element={<GhostwritingPage />} />
         <Route path="/services/publishing" element={<PublishingPage />} />
         <Route path="/services/podcast" element={<PodcastPage />} />
         <Route path="/services/live-events" element={<LiveEventPage />} />

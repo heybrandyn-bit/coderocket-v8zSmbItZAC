@@ -39,7 +39,7 @@ export default function GhostwritingPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="#contact"
+              href="/#contact"
               className="inline-flex items-center gap-2 bg-[#D4A574] text-[#2C1810] px-8 py-4 rounded-lg hover:bg-[#E8C792] transition-colors cursor-pointer font-bold text-lg"
             >
               Share Your Story
@@ -87,7 +87,7 @@ export default function GhostwritingPage() {
         </div>
       </section>
       {/* CTA Section */}
-      <section id="contact" className="py-16 px-4 sm:px-6 lg:px-8">
+      <section className="py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto text-center bg-gradient-to-br from-[#8B6F47] to-[#6F5739] rounded-2xl p-12">
           <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6">
             Ready to Amplify Your Voice?

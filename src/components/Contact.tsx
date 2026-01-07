@@ -4,110 +4,120 @@ import { Input } from './ui/input';
 import { Textarea } from './ui/textarea';
 export default function Contact() {
   return (
-    <section id="contact" className="relative py-32 px-6 lg:px-12">
-      {/* Ambient Glow */}
-      <div className="absolute top-1/2 right-10 w-[700px] h-[700px] bg-[#57A3AF]/5 blur-[120px] rounded-full"></div>
-      <div className="relative max-w-7xl mx-auto">
-        <div className="text-center mb-20">
-          <h2 className="font-oswald text-5xl md:text-7xl tracking-widest text-[#F0CFA6] mb-6 uppercase">
-            Let's Create <span className="text-[#57A3AF]">Together</span>
+    <section id="contact" className="py-24 px-4 sm:px-6 lg:px-8 bg-[#FFF8F0]">
+      <div className="max-w-7xl mx-auto">
+        <div className="text-center mb-16">
+          <h2 className="text-4xl sm:text-5xl font-bold text-[#2C1810] mb-4">
+            Start Your <span className="text-[#8B6F47]">Transformation</span>
           </h2>
-          <p className="text-[#F0CFA6]/70 text-lg max-w-3xl mx-auto">
-            <span className="font-instrument-serif italic text-[#57A3AF] text-[5rem] float-left leading-[0.7] mr-4">R</span>
-            eady to bring your vision to life? Whether you have a fully formed concept or just an idea, we're here to help you tell your story in the most cinematic way possible.
+          <p className="text-xl text-[#5A4A3A] max-w-2xl mx-auto">
+            Let's have a conversation about your business, your goals, and how we can help you achieve the growth and freedom you're looking for.
           </p>
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-          <div className="bg-white/5 backdrop-blur-3xl border border-white/10 rounded-[2.5rem] p-10 relative overflow-hidden">
-            <div className="absolute inset-0 shadow-[inset_0_0_60px_rgba(87,163,175,0.1)]"></div>
-            <form className="relative space-y-6">
+          <div>
+            <form className="space-y-6 bg-white p-8 rounded-xl shadow-lg border border-[#E8DCC8]">
               <div>
-                <label className="block font-oswald text-sm tracking-widest text-[#F0CFA6] mb-2 uppercase">Your Name</label>
+                <label className="block text-sm font-semibold text-[#2C1810] mb-2">Your Name</label>
                 <Input 
                   type="text" 
-                  placeholder="John Doe" 
-                  className="w-full bg-white/5 border-white/10 text-[#F0CFA6] placeholder:text-[#F0CFA6]/30 focus:border-[#57A3AF] rounded-2xl h-12"
+                  placeholder="John Smith" 
+                  className="w-full bg-[#FFF8F0] border-[#D4A574]/30 focus:border-[#D4A574]"
                 />
               </div>
               <div>
-                <label className="block font-oswald text-sm tracking-widest text-[#F0CFA6] mb-2 uppercase">Email</label>
+                <label className="block text-sm font-semibold text-[#2C1810] mb-2">Business Name</label>
+                <Input 
+                  type="text" 
+                  placeholder="Smith & Co." 
+                  className="w-full bg-[#FFF8F0] border-[#D4A574]/30 focus:border-[#D4A574]"
+                />
+              </div>
+              <div>
+                <label className="block text-sm font-semibold text-[#2C1810] mb-2">Email</label>
                 <Input 
                   type="email" 
-                  placeholder="john@company.com" 
-                  className="w-full bg-white/5 border-white/10 text-[#F0CFA6] placeholder:text-[#F0CFA6]/30 focus:border-[#57A3AF] rounded-2xl h-12"
+                  placeholder="john@smithandco.com" 
+                  className="w-full bg-[#FFF8F0] border-[#D4A574]/30 focus:border-[#D4A574]"
                 />
               </div>
               <div>
-                <label className="block font-oswald text-sm tracking-widest text-[#F0CFA6] mb-2 uppercase">Phone</label>
+                <label className="block text-sm font-semibold text-[#2C1810] mb-2">Phone</label>
                 <Input 
                   type="tel" 
-                  placeholder="+1 (555) 000-0000" 
-                  className="w-full bg-white/5 border-white/10 text-[#F0CFA6] placeholder:text-[#F0CFA6]/30 focus:border-[#57A3AF] rounded-2xl h-12"
+                  placeholder="(404) 555-0123" 
+                  className="w-full bg-[#FFF8F0] border-[#D4A574]/30 focus:border-[#D4A574]"
                 />
               </div>
               <div>
-                <label className="block font-oswald text-sm tracking-widest text-[#F0CFA6] mb-2 uppercase">Project Details</label>
+                <label className="block text-sm font-semibold text-[#2C1810] mb-2">Tell Us About Your Vision</label>
                 <Textarea 
-                  placeholder="Tell us about your project, timeline, and vision..." 
-                  rows={6}
-                  className="w-full bg-white/5 border-white/10 text-[#F0CFA6] placeholder:text-[#F0CFA6]/30 focus:border-[#57A3AF] rounded-2xl resize-none"
+                  placeholder="What are your goals? What challenges are you facing? How can we help you grow?" 
+                  rows={5}
+                  className="w-full bg-[#FFF8F0] border-[#D4A574]/30 focus:border-[#D4A574]"
                 />
               </div>
               <Button 
                 type="submit" 
-                className="w-full bg-[#EA3C4B] hover:bg-[#FF8F48] text-[#F0CFA6] font-oswald tracking-widest uppercase rounded-full h-14 text-sm cursor-pointer shadow-lg shadow-[#EA3C4B]/20"
+                className="w-full bg-[#8B6F47] hover:bg-[#6F5739] text-white py-6 text-lg font-bold cursor-pointer"
               >
-                Send Message
+                Send Your Message
               </Button>
             </form>
           </div>
           <div className="space-y-8">
             <div>
-              <h3 className="font-oswald text-3xl tracking-widest text-[#F0CFA6] mb-8 uppercase">Get in Touch</h3>
-              <div className="space-y-6">
+              <h3 className="text-2xl font-bold text-[#2C1810] mb-6">Get in Touch</h3>
+              <div className="space-y-4">
                 <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 rounded-full bg-[#57A3AF]/20 flex items-center justify-center flex-shrink-0">
-                    <MapPin className="w-6 h-6 text-[#57A3AF]" />
+                  <div className="w-12 h-12 rounded-lg bg-[#D4A574] flex items-center justify-center flex-shrink-0">
+                    <MapPin className="w-6 h-6 text-white" />
                   </div>
                   <div>
-                    <h4 className="font-oswald text-sm tracking-widest text-[#F0CFA6] mb-1 uppercase">Location</h4>
-                    <p className="text-[#F0CFA6]/70">Los Angeles, California<br />Serving clients worldwide</p>
+                    <h4 className="font-semibold text-[#2C1810] mb-1">Location</h4>
+                    <p className="text-[#5A4A3A]">Serving Atlanta Metro Area<br />Main Street Businesses</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 rounded-full bg-[#FF8F48]/20 flex items-center justify-center flex-shrink-0">
-                    <Phone className="w-6 h-6 text-[#FF8F48]" />
+                  <div className="w-12 h-12 rounded-lg bg-[#8B6F47] flex items-center justify-center flex-shrink-0">
+                    <Phone className="w-6 h-6 text-white" />
                   </div>
                   <div>
-                    <h4 className="font-oswald text-sm tracking-widest text-[#F0CFA6] mb-1 uppercase">Phone</h4>
-                    <p className="text-[#F0CFA6]/70">+1 (555) 123-4567<br />Mon-Fri, 9am-6pm PST</p>
+                    <h4 className="font-semibold text-[#2C1810] mb-1">Phone</h4>
+                    <p className="text-[#5A4A3A]">(404) 555-ALPHA<br />Mon-Fri, 9am-6pm EST</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 rounded-full bg-[#EA3C4B]/20 flex items-center justify-center flex-shrink-0">
-                    <Mail className="w-6 h-6 text-[#EA3C4B]" />
+                  <div className="w-12 h-12 rounded-lg bg-[#A68B5B] flex items-center justify-center flex-shrink-0">
+                    <Mail className="w-6 h-6 text-white" />
                   </div>
                   <div>
-                    <h4 className="font-oswald text-sm tracking-widest text-[#F0CFA6] mb-1 uppercase">Email</h4>
-                    <p className="text-[#F0CFA6]/70">hello@ghostcoast.video<br />We respond within 24 hours</p>
+                    <h4 className="font-semibold text-[#2C1810] mb-1">Email</h4>
+                    <p className="text-[#5A4A3A]">hello@alphareply.com<br />We respond within 24 hours</p>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="bg-white/5 backdrop-blur-3xl border border-white/10 rounded-[2.5rem] p-8 relative overflow-hidden">
-              <div className="absolute inset-0 shadow-[inset_0_0_60px_rgba(255,143,72,0.1)]"></div>
-              <div className="relative">
-                <h3 className="font-oswald text-xl tracking-widest text-[#F0CFA6] mb-4 uppercase">Ready to Start?</h3>
-                <p className="text-[#F0CFA6]/70 mb-6">
-                  Book a free 30-minute consultation to discuss your project and explore how we can bring your vision to life.
-                </p>
-                <a
-                  href="#contact"
-                  className="inline-flex items-center gap-2 px-6 py-3 bg-[#57A3AF]/20 backdrop-blur-xl border border-[#57A3AF]/30 text-[#57A3AF] font-oswald text-sm tracking-widest uppercase rounded-full hover:bg-[#57A3AF]/30 transition-all cursor-pointer"
-                >
-                  Schedule Consultation
-                </a>
-              </div>
+            <div className="bg-gradient-to-br from-[#8B6F47] to-[#6F5739] rounded-xl p-8 text-white">
+              <h3 className="text-2xl font-bold mb-4">Why Work With Us?</h3>
+              <ul className="space-y-3">
+                <li className="flex items-start gap-3">
+                  <span className="text-[#D4A574] text-xl">✓</span>
+                  <span>Atlanta-based team that understands your community</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-[#D4A574] text-xl">✓</span>
+                  <span>Complete service offering—no need for multiple vendors</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-[#D4A574] text-xl">✓</span>
+                  <span>Proven track record with main street businesses</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-[#D4A574] text-xl">✓</span>
+                  <span>Focus on measurable growth and ROI</span>
+                </li>
+              </ul>
             </div>
           </div>
         </div>

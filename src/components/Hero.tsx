@@ -1,54 +1,47 @@
-import { Play, ArrowRight } from 'lucide-react';
+import { ArrowRight, Sparkles } from 'lucide-react';
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center pt-20 px-6 lg:px-12 overflow-hidden">
-      {/* Ambient Glows */}
-      <div className="absolute top-20 left-10 w-[600px] h-[600px] bg-[#57A3AF]/5 blur-[120px] rounded-full"></div>
-      <div className="absolute bottom-20 right-10 w-[500px] h-[500px] bg-[#FF8F48]/5 blur-[120px] rounded-full"></div>
-      <div className="relative max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-        <div>
-          <div className="inline-flex items-center gap-2 bg-white/5 backdrop-blur-3xl border border-white/10 rounded-full px-6 py-2 mb-8">
-            <div className="w-2 h-2 rounded-full bg-[#57A3AF] animate-pulse"></div>
-            <span className="font-oswald text-xs tracking-widest text-[#57A3AF] uppercase">Cinematic Storytelling</span>
-          </div>
-          <h1 className="font-oswald text-6xl md:text-8xl tracking-widest text-[#F0CFA6] mb-6 leading-none uppercase">
-            We Capture<br />
-            <span className="text-[#57A3AF]">Legends</span>
-          </h1>
-          <div className="mb-8">
-            <p className="text-[#F0CFA6]/80 text-lg leading-relaxed">
-              <span className="font-instrument-serif italic text-[#57A3AF] text-[5rem] float-left leading-[0.7] mr-4">E</span>
-              very frame tells a story. Every story becomes unforgettable. Ghost Coast Video specializes in cinematic video production that elevates brands, captures moments, and creates visual experiences that resonate long after the screen goes dark.
-            </p>
-          </div>
-          <div className="flex flex-col sm:flex-row gap-4">
-            <a
-              href="#contact"
-              className="inline-flex items-center justify-center gap-3 px-8 py-4 bg-[#EA3C4B] text-[#F0CFA6] font-oswald text-sm tracking-widest uppercase rounded-full hover:bg-[#FF8F48] transition-all cursor-pointer shadow-lg shadow-[#EA3C4B]/20"
-            >
-              Start Your Project
-              <ArrowRight className="w-5 h-5" />
-            </a>
-            <a
-              href="#portfolio"
-              className="inline-flex items-center justify-center gap-3 px-8 py-4 bg-white/5 backdrop-blur-3xl border border-white/10 text-[#F0CFA6] font-oswald text-sm tracking-widest uppercase rounded-full hover:bg-white/10 transition-all cursor-pointer"
-            >
-              <Play className="w-5 h-5" />
-              View Our Work
-            </a>
-          </div>
+    <section className="relative min-h-screen flex items-center justify-center pt-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-[#2C1810] via-[#4A2818] to-[#2C1810]">
+      <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIGZpbGw9IiNEOEMyOTUiIGZpbGwtb3BhY2l0eT0iMC4wNSI+PHBhdGggZD0iTTM2IDM0djItaDJ2LTJoLTJ6bTAtNHYyaDJ2LTJoLTJ6bTAgNHYyaDJ2LTJoLTJ6Ii8+PC9nPjwvZz48L3N2Zz4=')] opacity-30"></div>
+      <div className="relative max-w-5xl mx-auto text-center">
+        <div className="inline-flex items-center gap-2 bg-[#D4A574]/10 border border-[#D4A574]/30 rounded-full px-6 py-2 mb-8">
+          <Sparkles className="w-4 h-4 text-[#D4A574]" />
+          <span className="text-[#F4E4C1] text-sm font-medium">Empowering Atlanta's Main Street Businesses</span>
         </div>
-        <div className="relative">
-          {/* 16:9 Hero Video Placeholder */}
-          <div className="relative aspect-video bg-white/5 backdrop-blur-3xl border border-white/10 rounded-[2.5rem] overflow-hidden shadow-2xl shadow-[#57A3AF]/10">
-            <div className="absolute inset-0 bg-gradient-to-br from-[#57A3AF]/20 to-[#060a0f]/20"></div>
-            <div className="absolute inset-0 flex items-center justify-center">
-              <div className="w-20 h-20 rounded-full bg-[#EA3C4B]/90 backdrop-blur-xl flex items-center justify-center cursor-pointer hover:scale-110 transition-transform shadow-lg shadow-[#EA3C4B]/30">
-                <Play className="w-8 h-8 text-[#F0CFA6] ml-1" fill="currentColor" />
-              </div>
-            </div>
-            {/* Inner Glow */}
-            <div className="absolute inset-0 shadow-[inset_0_0_60px_rgba(87,163,175,0.1)]"></div>
+        <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold text-[#F4E4C1] mb-6 leading-tight">
+          Become the Creator of<br />
+          <span className="text-[#D4A574]">Your Own Success</span>
+        </h1>
+        <p className="text-xl sm:text-2xl text-[#F4E4C1]/80 mb-12 max-w-3xl mx-auto leading-relaxed">
+          We help main street businesses experience transformative growth through strategic content solutions—video production, marketing automation, ghostwriting, podcasts, and live events that connect you with the clients you're meant to serve.
+        </p>
+        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+          <a
+            href="#contact"
+            className="inline-flex items-center gap-2 bg-[#D4A574] text-[#2C1810] px-8 py-4 rounded-lg hover:bg-[#E8C792] transition-all cursor-pointer font-bold text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
+          >
+            Start Your Transformation
+            <ArrowRight className="w-5 h-5" />
+          </a>
+          <a
+            href="#services"
+            className="inline-flex items-center gap-2 bg-transparent border-2 border-[#D4A574] text-[#F4E4C1] px-8 py-4 rounded-lg hover:bg-[#D4A574]/10 transition-all cursor-pointer font-bold text-lg"
+          >
+            Explore Our Services
+          </a>
+        </div>
+        <div className="mt-16 grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-3xl mx-auto">
+          <div className="text-center">
+            <div className="text-4xl font-bold text-[#D4A574] mb-2">500+</div>
+            <div className="text-[#F4E4C1]/70">Main Street Businesses Served</div>
+          </div>
+          <div className="text-center">
+            <div className="text-4xl font-bold text-[#D4A574] mb-2">3x</div>
+            <div className="text-[#F4E4C1]/70">Average Client Growth</div>
+          </div>
+          <div className="text-center">
+            <div className="text-4xl font-bold text-[#D4A574] mb-2">100%</div>
+            <div className="text-[#F4E4C1]/70">Atlanta-Based Team</div>
           </div>
         </div>
       </div>

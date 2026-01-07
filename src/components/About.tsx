@@ -1,77 +1,77 @@
-import { Award, Users, Target } from 'lucide-react';
+import { Heart, Target, Users } from 'lucide-react';
 export default function About() {
   return (
-    <section id="about" className="relative py-32 px-6 lg:px-12">
-      {/* Ambient Glow */}
-      <div className="absolute top-1/2 left-10 w-[600px] h-[600px] bg-[#EA3C4B]/5 blur-[120px] rounded-full"></div>
-      <div className="relative max-w-7xl mx-auto">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+    <section id="about" className="py-24 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-[#2C1810] to-[#4A2818]">
+      <div className="max-w-7xl mx-auto">
+        <div className="text-center mb-16">
+          <h2 className="text-4xl sm:text-5xl font-bold text-[#F4E4C1] mb-4">
+            Rooted in <span className="text-[#D4A574]">Atlanta</span>
+          </h2>
+          <p className="text-xl text-[#F4E4C1]/80 max-w-3xl mx-auto">
+            We're inspired by the vibrant spirit of neighborhoods like Little Five Points, West End, Virginia Highland, and Sweet Auburn—communities built on authenticity, creativity, and connection.
+          </p>
+        </div>
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
           <div>
-            <h2 className="font-oswald text-5xl md:text-7xl tracking-widest text-[#F0CFA6] mb-8 uppercase">
-              About <span className="text-[#EA3C4B]">Ghost Coast</span>
-            </h2>
-            <div className="mb-8">
-              <p className="text-[#F0CFA6]/80 text-lg leading-relaxed mb-6">
-                <span className="font-instrument-serif italic text-[#EA3C4B] text-[5rem] float-left leading-[0.7] mr-4">W</span>
-                e are filmmakers, storytellers, and visual artists obsessed with crafting cinematic experiences. Founded on the belief that every brand has a story worth telling, Ghost Coast Video has become a trusted name in video production.
-              </p>
-              <p className="text-[#F0CFA6]/80 text-lg leading-relaxed">
-                Our team brings together award-winning directors, cinematographers, and editors who share a singular vision: to create content that doesn't just capture attention—it holds it, shapes perception, and drives action.
-              </p>
-            </div>
-            <div className="grid grid-cols-3 gap-6">
-              <div className="text-center">
-                <div className="font-oswald text-4xl tracking-widest text-[#57A3AF] mb-2">10+</div>
-                <div className="font-oswald text-xs tracking-widest text-[#F0CFA6]/70 uppercase">Years</div>
-              </div>
-              <div className="text-center">
-                <div className="font-oswald text-4xl tracking-widest text-[#FF8F48] mb-2">500+</div>
-                <div className="font-oswald text-xs tracking-widest text-[#F0CFA6]/70 uppercase">Projects</div>
-              </div>
-              <div className="text-center">
-                <div className="font-oswald text-4xl tracking-widest text-[#EA3C4B] mb-2">15+</div>
-                <div className="font-oswald text-xs tracking-widest text-[#F0CFA6]/70 uppercase">Awards</div>
-              </div>
-            </div>
+            <h3 className="text-3xl font-bold text-[#F4E4C1] mb-6">
+              Your Partner in Transformation
+            </h3>
+            <p className="text-[#F4E4C1]/80 text-lg mb-6 leading-relaxed">
+              We believe every main street business owner has a unique story worth sharing. Our mission is to help you become the creator of your own narrative—transforming your expertise into content that attracts ideal clients and builds lasting authority.
+            </p>
+            <p className="text-[#F4E4C1]/80 text-lg leading-relaxed">
+              Through video, written word, voice, and live experiences, we help you communicate in ways that resonate deeply with your community, bringing you greater growth, freedom, and abundance.
+            </p>
           </div>
           <div className="space-y-6">
-            <div className="bg-white/5 backdrop-blur-3xl border border-white/10 rounded-[2.5rem] p-8 relative overflow-hidden">
-              <div className="absolute inset-0 shadow-[inset_0_0_60px_rgba(87,163,175,0.1)]"></div>
-              <div className="relative flex items-start gap-4">
-                <div className="w-12 h-12 rounded-full bg-[#57A3AF]/20 flex items-center justify-center flex-shrink-0">
-                  <Award className="w-6 h-6 text-[#57A3AF]" />
+            <div className="bg-[#3A2418] rounded-xl p-6 border border-[#D4A574]/20">
+              <div className="flex items-start gap-4">
+                <div className="w-12 h-12 rounded-lg bg-[#D4A574] flex items-center justify-center flex-shrink-0">
+                  <Heart className="w-6 h-6 text-white" />
                 </div>
                 <div>
-                  <h3 className="font-oswald text-xl tracking-widest text-[#F0CFA6] mb-2 uppercase">Award-Winning</h3>
-                  <p className="text-[#F0CFA6]/70">Recognized globally for excellence in cinematography and storytelling.</p>
+                  <h4 className="text-xl font-bold text-[#F4E4C1] mb-2">Authenticity First</h4>
+                  <p className="text-[#F4E4C1]/70">We help you communicate in your true voice, building genuine connections with your audience.</p>
                 </div>
               </div>
             </div>
-            <div className="bg-white/5 backdrop-blur-3xl border border-white/10 rounded-[2.5rem] p-8 relative overflow-hidden md:translate-y-12">
-              <div className="absolute inset-0 shadow-[inset_0_0_60px_rgba(255,143,72,0.1)]"></div>
-              <div className="relative flex items-start gap-4">
-                <div className="w-12 h-12 rounded-full bg-[#FF8F48]/20 flex items-center justify-center flex-shrink-0">
-                  <Users className="w-6 h-6 text-[#FF8F48]" />
+            <div className="bg-[#3A2418] rounded-xl p-6 border border-[#D4A574]/20">
+              <div className="flex items-start gap-4">
+                <div className="w-12 h-12 rounded-lg bg-[#8B6F47] flex items-center justify-center flex-shrink-0">
+                  <Target className="w-6 h-6 text-white" />
                 </div>
                 <div>
-                  <h3 className="font-oswald text-xl tracking-widest text-[#F0CFA6] mb-2 uppercase">Expert Team</h3>
-                  <p className="text-[#F0CFA6]/70">Industry veterans with decades of combined experience.</p>
+                  <h4 className="text-xl font-bold text-[#F4E4C1] mb-2">Results-Driven</h4>
+                  <p className="text-[#F4E4C1]/70">Every piece of content is strategically designed to attract clients and drive measurable growth.</p>
                 </div>
               </div>
             </div>
-            <div className="bg-white/5 backdrop-blur-3xl border border-white/10 rounded-[2.5rem] p-8 relative overflow-hidden">
-              <div className="absolute inset-0 shadow-[inset_0_0_60px_rgba(234,60,75,0.1)]"></div>
-              <div className="relative flex items-start gap-4">
-                <div className="w-12 h-12 rounded-full bg-[#EA3C4B]/20 flex items-center justify-center flex-shrink-0">
-                  <Target className="w-6 h-6 text-[#EA3C4B]" />
+            <div className="bg-[#3A2418] rounded-xl p-6 border border-[#D4A574]/20">
+              <div className="flex items-start gap-4">
+                <div className="w-12 h-12 rounded-lg bg-[#A68B5B] flex items-center justify-center flex-shrink-0">
+                  <Users className="w-6 h-6 text-white" />
                 </div>
                 <div>
-                  <h3 className="font-oswald text-xl tracking-widest text-[#F0CFA6] mb-2 uppercase">Results-Driven</h3>
-                  <p className="text-[#F0CFA6]/70">Every frame crafted to achieve your business objectives.</p>
+                  <h4 className="text-xl font-bold text-[#F4E4C1] mb-2">Community-Focused</h4>
+                  <p className="text-[#F4E4C1]/70">We understand main street businesses because we're part of this community too.</p>
                 </div>
               </div>
             </div>
           </div>
+        </div>
+        <div className="bg-[#D4A574]/10 border border-[#D4A574]/30 rounded-2xl p-8 md:p-12 text-center">
+          <h3 className="text-3xl font-bold text-[#F4E4C1] mb-4">
+            Ready to Write Your Success Story?
+          </h3>
+          <p className="text-xl text-[#F4E4C1]/80 mb-8 max-w-2xl mx-auto">
+            Let's create content that doesn't just tell your story—it transforms your business and opens doors to new possibilities.
+          </p>
+          <a
+            href="#contact"
+            className="inline-flex items-center gap-2 bg-[#D4A574] text-[#2C1810] px-8 py-4 rounded-lg hover:bg-[#E8C792] transition-colors cursor-pointer font-bold text-lg shadow-lg"
+          >
+            Let's Talk About Your Vision
+          </a>
         </div>
       </div>
     </section>

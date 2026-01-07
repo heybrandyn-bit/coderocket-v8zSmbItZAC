@@ -9,10 +9,6 @@ module.exports = {
   ],
   theme: {
     extend: {
-      fontFamily: {
-        'oswald': ['Oswald', 'sans-serif'],
-        'instrument-serif': ['Instrument Serif', 'serif'],
-      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
