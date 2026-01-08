@@ -15,7 +15,7 @@ export default function VideoProductionPage() {
   ];
 
   const process = [
-    { step: "The Fun Part", description: "Share your ideas in a relaxed, supported environment" },
+    { step: "The Fun Part", description: "Share your ideas in a VERY relaxed & supported environment" },
     { step: "We Handle This", description: "Professional editing and production magic happens" },
     { step: "Guest Management", description: "Yeah. Meet your dream 100, or just your industry's" },
     { step: "Growth Time", description: "Your ideas reach eager audiences everywhere" },
