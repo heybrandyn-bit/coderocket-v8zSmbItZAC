@@ -4,42 +4,42 @@ const services = [
   {
     icon: Video,
     title: 'Video Production',
-    description: 'Professional video content that captures your story and connects with your audience in authentic ways.',
+    description: 'Professional video content that looks good and lets you sell the high points of your work.',
     color: 'from-[#D4A574] to-[#C89968]',
     link: '/services/video-production'
   },
   {
     icon: Zap,
     title: 'Marketing Automation',
-    description: 'Smart systems that nurture leads and convert prospects while you focus on running your business.',
+    description: 'That means TIME SAVING systems that people will actually use, not just scripts.',
     color: 'from-[#8B6F47] to-[#A68B5B]',
     link: '/services/marketing-automation'
   },
   {
     icon: PenTool,
     title: 'Ghostwriting',
-    description: 'Your voice, amplified. We help you articulate your expertise in compelling content that builds authority.',
+    description: 'We write the scripts that make your organization work, from video to email to anything else.',
     color: 'from-[#D4A574] to-[#E8C792]',
     link: '/services/ghostwriting'
   },
   {
     icon: BookOpen,
     title: 'Publishing',
-    description: 'Turn your knowledge into published works that establish you as the go-to expert in your field.',
+    description: 'Turn your knowledge into lead generators that establish you as the go-to expert in your field.',
     color: 'from-[#A68B5B] to-[#C4A678]',
     link: '/services/publishing'
   },
   {
     icon: Mic,
     title: 'Podcast Production',
-    description: 'Build a loyal following through the power of voice—we handle everything from concept to distribution.',
+    description: 'The chillest way to build a loyal following. We handle everything from concept to distribution.',
     color: 'from-[#8B6F47] to-[#9F8254]',
     link: '/services/podcast'
   },
   {
     icon: Camera,
     title: 'Live Event Capture',
-    description: 'Document your events with cinematic quality that extends their impact far beyond the venue.',
+    description: 'Relax with the people who care the most. We will make sure people get the message - and rememebr it.',
     color: 'from-[#C89968] to-[#D4A574]',
     link: '/services/live-events'
   }
@@ -50,10 +50,10 @@ export default function Services() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl sm:text-5xl font-bold text-[#2C1810] mb-4">
-            Complete Solutions for <span className="text-[#8B6F47]">Your Growth</span>
+            Everything That Turns A Stranger <span className="text-[#8B6F47]">Into A Client</span>
           </h2>
           <p className="text-xl text-[#5A4A3A] max-w-3xl mx-auto">
-            Every service designed to help you attract more clients, build authority, and experience the freedom that comes with strategic communication.
+            For the people who make dreams come true – we return the favor. We use science + storytelling to scale your brand and your sales on social media.
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
