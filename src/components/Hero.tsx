@@ -18,12 +18,12 @@ export default function Hero() {
         {/* Headline */}
         <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold text-[#F4E4C1] mb-6 leading-tight">
           You Don't Have Forever<br />
-          <span className="text-[#D4A574]">To Broadcast Your Best Self</span>
+          <span className="text-[#D4A574]">To Share Your Best Self</span>
         </h1>
 
         {/* Description - Broken down for better flow */}
         <p className="text-xl sm:text-2xl text-[#F4E4C1]/80 mb-12 max-w-3xl mx-auto leading-relaxed">
-          Experience transformative growth through content solutions — video production, marketing automation, ghostwriting, podcasts, and live events that connect you with the clients you're meant to serve. My friends and I really love spending our money at local businesses ;) - and we've honed our skills in direct marketing to deliver tangible results.
+          Experience transformative growth through content solutions — video production, marketing automation, ghostwriting, podcasts, and live events that connect you with the clients you're meant to serve.
           </p>
 
         {/* Call to Actions */}
