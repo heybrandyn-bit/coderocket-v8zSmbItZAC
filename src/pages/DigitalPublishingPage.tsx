@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import { Button } from '../components/ui/button';
-
 export default function DigitalPublishingPage() {
   const benefits = [
     "Strategic writing that drives business growth, not just fills pages",
@@ -13,7 +12,6 @@ export default function DigitalPublishingPage() {
     "Lead generation pieces (e-books, guides) designed to capture high-quality prospects",
     "Full-length books that cement your legacy and attract ideal clients"
   ];
-
   const publishingTypes = [
     { 
       title: "Email Campaigns", 
@@ -46,11 +44,9 @@ export default function DigitalPublishingPage() {
       icon: <PenTool className="w-8 h-8 text-[#D4A574]" />
     }
   ];
-
   return (
     <div className="min-h-screen bg-[#FFF8F0]">
       <Navbar />
-      
       {/* Hero Section */}
       <section className="relative min-h-[60vh] flex items-center justify-center pt-24 pb-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-[#2C1810] via-[#4A2818] to-[#2C1810]">
         <div className="max-w-5xl mx-auto text-center">
@@ -82,7 +78,6 @@ export default function DigitalPublishingPage() {
           </div>
         </div>
       </section>
-
       {/* Benefits Section */}
       <section className="py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
@@ -99,7 +94,6 @@ export default function DigitalPublishingPage() {
           </div>
         </div>
       </section>
-
       {/* What We Publish Section */}
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-[#2C1810] to-[#4A2818]">
         <div className="max-w-7xl mx-auto">
@@ -119,7 +113,6 @@ export default function DigitalPublishingPage() {
           </div>
         </div>
       </section>
-
       {/* CTA Section */}
       <section className="py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto text-center bg-gradient-to-br from-[#8B6F47] to-[#6F5739] rounded-2xl p-12">
@@ -136,7 +129,6 @@ export default function DigitalPublishingPage() {
           </Link>
         </div>
       </section>
-
       <Footer />
     </div>
   );
