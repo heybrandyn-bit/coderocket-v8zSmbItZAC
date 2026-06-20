@@ -216,6 +216,39 @@ export const shows: ShowConfig[] = [
             border: "25 40% 25%",
         },
     },
+    {
+        title: "Tradecraft Micropodcast",
+        slug: "tradecraft",
+        tagline: "Marketing for Roofers.",
+        description: "Short, no-fluff episodes on roofing marketing — Google Business Profile, reviews on autopilot, fast lead response, and turning one job into five pieces of content. Hosted by Brandyn Buchanan.",
+        feedUrl: "https://feeds.castos.com/qvw8q",
+        hosts: ["Brandyn Buchanan"],
+        sections: {
+            episodes: true,
+            pressKit: false,
+            guestBooking: false,
+            voicenote: false,
+            subscribe: true,
+            heroSubscribe: false,
+            reviews: false,
+            merch: false,
+            youtubeChannel: false,
+        },
+        pressKit: {
+            premise: "No-fluff roofing marketing: GBP, reviews, fast lead response, and turning one job into five pieces of content.",
+            format: "~5-minute answers to real roofer questions",
+            recordingMethod: "Solo — OBS + mic",
+            discordInvite: "",
+            guestExpectations: [],
+        },
+        links: {},
+        theme: {
+            primary: "46 100% 50%", // Tradecraft Yellow
+            accent: "21 85% 54%",   // Tradecraft Orange
+            muted: "30 25% 12%",
+            border: "30 35% 22%",
+        },
+    },
 ];
 
 export function getShowBySlug(slug: string): ShowConfig | undefined {
